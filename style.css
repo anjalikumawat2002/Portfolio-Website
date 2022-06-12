@@ -115,8 +115,8 @@ font-family: 'Poppins', sans-serif;
     
     width: 30%;
     padding: 40px;
-    
-    height: 475px;
+    min-width:400px;
+    min-height:475px;
     /* margin:30px;
     margin-right:30px;
     margin-bottom: 70px; */
@@ -138,6 +138,10 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: space-between;
 }
+@media (max-width:300px){
+    .column-2{
+        padding:20px;
+    }
 @media (max-width:480px){
     .column-2 {
         width:90%;
